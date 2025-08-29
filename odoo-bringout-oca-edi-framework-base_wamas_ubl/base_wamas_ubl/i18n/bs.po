@@ -1,0 +1,208 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* base_wamas_ubl
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: base_wamas_ubl
+#. odoo-python
+#: code:addons/base_wamas_ubl/wizards/wamas_ubl_wiz_check.py:0
+#: code:addons/base_wamas_ubl/wizards/wamas_ubl_wiz_simulate.py:0
+#, python-format
+msgid "- Error: %s"
+msgstr "- Greška: %s"
+
+#. module: base_wamas_ubl
+#. odoo-python
+#: code:addons/base_wamas_ubl/wizards/wamas_ubl_wiz_check.py:0
+#, python-format
+msgid ""
+"- WAMAS Type: %(wamas_type)s\n"
+"- Data: %(data)s"
+msgstr ""
+
+#. module: base_wamas_ubl
+#: model_terms:ir.ui.view,arch_db:base_wamas_ubl.wamas_ubl_wiz_check_form
+#: model_terms:ir.ui.view,arch_db:base_wamas_ubl.wamas_ubl_wiz_simulate_form
+msgid "Cancel"
+msgstr "Otkaži"
+
+#. module: base_wamas_ubl
+#: model_terms:ir.ui.view,arch_db:base_wamas_ubl.wamas_ubl_wiz_check_form
+msgid "Check"
+msgstr "Provjeri"
+
+#. module: base_wamas_ubl
+#: model:ir.actions.act_window,name:base_wamas_ubl.wamas_ubl_wiz_check_action
+#: model:ir.ui.menu,name:base_wamas_ubl.wamas_ubl_wiz_check_menu
+#: model_terms:ir.ui.view,arch_db:base_wamas_ubl.wamas_ubl_wiz_check_form
+msgid "Check WAMAS File"
+msgstr "Provjeri WAMAS datoteku"
+
+#. module: base_wamas_ubl
+#: model:ir.model,name:base_wamas_ubl.model_wamas_ubl_wiz_check
+msgid "Check WAMAS File Wizard"
+msgstr "Čarobnjak za provjeru WAMAS datoteke"
+
+#. module: base_wamas_ubl
+#: model:ir.model.fields,field_description:base_wamas_ubl.field_wamas_ubl_wiz_check__create_uid
+#: model:ir.model.fields,field_description:base_wamas_ubl.field_wamas_ubl_wiz_simulate__create_uid
+msgid "Created by"
+msgstr "Kreirao"
+
+#. module: base_wamas_ubl
+#: model:ir.model.fields,field_description:base_wamas_ubl.field_wamas_ubl_wiz_check__create_date
+#: model:ir.model.fields,field_description:base_wamas_ubl.field_wamas_ubl_wiz_simulate__create_date
+msgid "Created on"
+msgstr "Kreirano"
+
+#. module: base_wamas_ubl
+#: model_terms:ir.ui.view,arch_db:base_wamas_ubl.wamas_ubl_wiz_check_form
+msgid "Data"
+msgstr "Podaci"
+
+#. module: base_wamas_ubl
+#: model:ir.model.fields,field_description:base_wamas_ubl.field_wamas_ubl_wiz_check__display_name
+#: model:ir.model.fields,field_description:base_wamas_ubl.field_wamas_ubl_wiz_simulate__display_name
+msgid "Display Name"
+msgstr "Prikazani naziv"
+
+#. module: base_wamas_ubl
+#: model:ir.model.fields,field_description:base_wamas_ubl.field_wamas_ubl_wiz_check__id
+#: model:ir.model.fields,field_description:base_wamas_ubl.field_wamas_ubl_wiz_simulate__id
+msgid "ID"
+msgstr "ID"
+
+#. module: base_wamas_ubl
+#: model:ir.model.fields,field_description:base_wamas_ubl.field_wamas_ubl_wiz_check____last_update
+#: model:ir.model.fields,field_description:base_wamas_ubl.field_wamas_ubl_wiz_simulate____last_update
+msgid "Last Modified on"
+msgstr "Zadnje mijenjano"
+
+#. module: base_wamas_ubl
+#: model:ir.model.fields,field_description:base_wamas_ubl.field_wamas_ubl_wiz_check__write_uid
+#: model:ir.model.fields,field_description:base_wamas_ubl.field_wamas_ubl_wiz_simulate__write_uid
+msgid "Last Updated by"
+msgstr "Zadnji ažurirao"
+
+#. module: base_wamas_ubl
+#: model:ir.model.fields,field_description:base_wamas_ubl.field_wamas_ubl_wiz_check__write_date
+#: model:ir.model.fields,field_description:base_wamas_ubl.field_wamas_ubl_wiz_simulate__write_date
+msgid "Last Updated on"
+msgstr "Zadnje ažurirano"
+
+#. module: base_wamas_ubl
+#: model:ir.model,name:base_wamas_ubl.model_base_wamas_ubl
+msgid "Methods to convert WAMAS to UBL XML files and vice versa"
+msgstr "Metode za konverziju WAMAS u UBL XML datoteke i obrnuto"
+
+#. module: base_wamas_ubl
+#: model_terms:ir.ui.view,arch_db:base_wamas_ubl.wamas_ubl_wiz_simulate_form
+msgid "Only supports FROM telegram type TO telegram type(s) bellow:"
+msgstr "Podržava samo OD tipa telegrama DO tipa(ova) telegrama ispod:"
+
+#. module: base_wamas_ubl
+#: model_terms:ir.ui.view,arch_db:base_wamas_ubl.wamas_ubl_wiz_check_form
+msgid "Only supports telegram type(s) bellow:"
+msgstr "Podržava samo tipove telegrama ispod:"
+
+#. module: base_wamas_ubl
+#: model:ir.model.fields,field_description:base_wamas_ubl.field_wamas_ubl_wiz_check__output
+#: model:ir.model.fields,field_description:base_wamas_ubl.field_wamas_ubl_wiz_simulate__output
+msgid "Output"
+msgstr "Izlaz"
+
+#. module: base_wamas_ubl
+#: model:ir.model.fields,field_description:base_wamas_ubl.field_wamas_ubl_wiz_simulate__output_wamas_file
+msgid "Output WAMAS File"
+msgstr "Izlazna WAMAS datoteka"
+
+#. module: base_wamas_ubl
+#: model:ir.model.fields,field_description:base_wamas_ubl.field_wamas_ubl_wiz_simulate__output_wamas_filename
+msgid "Output WAMAS Filename"
+msgstr "Izlazni WAMAS naziv datoteke"
+
+#. module: base_wamas_ubl
+#. odoo-python
+#: code:addons/base_wamas_ubl/models/base_wamas_ubl.py:0
+#, python-format
+msgid "Please define wamas message type (msg_type)."
+msgstr "Molimo definirajte wamas tip poruke (msg_type)."
+
+#. module: base_wamas_ubl
+#: model_terms:ir.ui.view,arch_db:base_wamas_ubl.wamas_ubl_wiz_simulate_form
+msgid "Simulate"
+msgstr "Simuliraj"
+
+#. module: base_wamas_ubl
+#: model:ir.actions.act_window,name:base_wamas_ubl.wamas_ubl_wiz_simulate_action
+#: model:ir.ui.menu,name:base_wamas_ubl.wamas_ubl_wiz_simulate_menu
+#: model_terms:ir.ui.view,arch_db:base_wamas_ubl.wamas_ubl_wiz_simulate_form
+msgid "Simulate WAMAS File"
+msgstr "Simuliraj WAMAS datoteku"
+
+#. module: base_wamas_ubl
+#: model:ir.model,name:base_wamas_ubl.model_wamas_ubl_wiz_simulate
+msgid "Simulate WAMAS File Wizard"
+msgstr "Čarobnjak za simulaciju WAMAS datoteke"
+
+#. module: base_wamas_ubl
+#: model:ir.model.fields,field_description:base_wamas_ubl.field_wamas_ubl_wiz_check__supported_telegram
+#: model:ir.model.fields,field_description:base_wamas_ubl.field_wamas_ubl_wiz_simulate__supported_telegram
+msgid "Supported Telegram"
+msgstr "Podržani telegram"
+
+#. module: base_wamas_ubl
+#: model_terms:ir.ui.view,arch_db:base_wamas_ubl.wamas_ubl_wiz_check_form
+msgid "Telegram Type"
+msgstr "Tip telegrama"
+
+#. module: base_wamas_ubl
+#. odoo-python
+#: code:addons/base_wamas_ubl/models/base_wamas_ubl.py:0
+#, python-format
+msgid "The data is not valid."
+msgstr "Podaci nisu važeći."
+
+#. module: base_wamas_ubl
+#: model_terms:ir.ui.view,arch_db:base_wamas_ubl.wamas_ubl_wiz_check_form
+msgid "This wizard will help you extract data of a WAMAS file into:"
+msgstr "Ovaj čarobnjak će vam pomoći da izvučete podatke WAMAS datoteke u:"
+
+#. module: base_wamas_ubl
+#: model_terms:ir.ui.view,arch_db:base_wamas_ubl.wamas_ubl_wiz_simulate_form
+msgid ""
+"This wizard will help you generate (simulating) a new WAMAS file from an "
+"existing WAMAS file."
+msgstr ""
+
+#. module: base_wamas_ubl
+#: model:ir.ui.menu,name:base_wamas_ubl.menu_wamas_parent
+msgid "WAMAS"
+msgstr "WAMAS"
+
+#. module: base_wamas_ubl
+#: model:ir.model.fields,field_description:base_wamas_ubl.field_wamas_ubl_wiz_check__wamas_file
+#: model:ir.model.fields,field_description:base_wamas_ubl.field_wamas_ubl_wiz_simulate__wamas_file
+msgid "WAMAS File"
+msgstr "WAMAS datoteka"
+
+#. module: base_wamas_ubl
+#: model:ir.model.fields,field_description:base_wamas_ubl.field_wamas_ubl_wiz_check__wamas_filename
+#: model:ir.model.fields,field_description:base_wamas_ubl.field_wamas_ubl_wiz_simulate__wamas_filename
+msgid "WAMAS Filename"
+msgstr "WAMAS naziv datoteke"
+
+#. module: base_wamas_ubl
+#: model_terms:ir.ui.view,arch_db:base_wamas_ubl.wamas_ubl_wiz_check_form
+msgid "WAMAS Type"
+msgstr "WAMAS tip"
