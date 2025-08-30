@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [account](../../odoo-bringout-oca-ocb-account)
-- [account_invoice_transmit_method](../../odoo-bringout-oca-account-invoicing-account_invoice_transmit_method)
+- [account](../../../../../oca-ocb-accounting/odoo-bringout-oca-ocb-account)
+- [account_invoice_transmit_method](../../../../../oca-financial/odoo-bringout-oca-account-invoicing-account_invoice_transmit_method)
