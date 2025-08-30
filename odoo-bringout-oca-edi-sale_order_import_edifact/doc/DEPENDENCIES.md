@@ -2,7 +2,7 @@
 
 This addon depends on:
 
-- [sale_management](../../../../../oca-ocb-sale/odoo-bringout-oca-ocb-sale_management)
+- [sale_management](https://github.com/bringout/oca-ocb-sale)
 - partner_identification_gln
-- [base_edifact](../../../../odoo-bringout-oca-edi-base_edifact)
+- [base_edifact](https://github.com/bringout/oca-edi)
 - [sale_order_import](../../odoo-bringout-oca-edi-framework-sale_order_import)
