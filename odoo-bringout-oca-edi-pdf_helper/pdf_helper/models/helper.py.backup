@@ -41,10 +41,6 @@ class PDFHelper(models.AbstractModel):
             reader = OdooPdfFileReader(reader_buffer, strict=False)
             writer = OdooPdfFileWriter()
             writer.cloneReaderDocumentRoot(reader)
-            # Copy all pages from the reader to the writer (required for PyPDF2 3.x)
-            for page_num in range(reader.getNumPages()):
-                page = reader.getPage(page_num)
-                writer.addPage(page)
             writer.addAttachment(xml_filename, xml_string, subtype="text/xml")
             # show attachments when opening PDF
             writer._root_object.update(
