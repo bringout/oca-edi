@@ -15,10 +15,10 @@ msgstr ""
 
 #. module: base_edi
 #: model:ir.module.category,name:base_edi.module_category_edi
-#: model:ir.ui.menu,name:base_edi.menu_edi_root
 msgid "EDI"
 msgstr "EDI"
 
+# taken from hr.po
 #. module: base_edi
 #: model:res.groups,name:base_edi.group_edi_manager
 msgid "EDI Manager"
@@ -27,4 +27,4 @@ msgstr "EDI upravljanje"
 #. module: base_edi
 #: model:res.groups,name:base_edi.group_edi_user
 msgid "EDI User"
-msgstr ""
+msgstr "EDI korisnik"

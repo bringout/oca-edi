@@ -13,25 +13,32 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
-#. module: account_e-invoice_generate
-#: model_terms:ir.ui.view,arch_db:account_e-invoice_generate.view_account_config_settings
+# taken from hr.po
+#. module: account_einvoice_generate
+#: model_terms:ir.ui.view,arch_db:account_einvoice_generate.view_account_config_settings
+#, fuzzy
 msgid ""
 "<span class=\"o_form_label\">Select Format</span>\n"
 "                            <span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-specific.\" groups=\"base.group_multi_company\"/>"
 msgstr ""
+"<span class=\"o_form_label\">Izaberite format</span>\n"
+"                            <span class=\"fa fa-lg fa-building-o\" title=\"Vrijednosti ovdje postavljene su specifične za kompaniju.\" groups=\"base.group_multi_company\"/>"
 
-#. module: account_e-invoice_generate
-#: model:ir.model,name:account_e-invoice_generate.model_res_company
+# taken from hr.po
+#. module: account_einvoice_generate
+#: model:ir.model,name:account_einvoice_generate.model_res_company
 msgid "Companies"
-msgstr "Tvrtke"
+msgstr "Kompanije"
 
-#. module: account_e-invoice_generate
-#: model:ir.model,name:account_e-invoice_generate.model_res_config_settings
+# taken from hr.po
+#. module: account_einvoice_generate
+#: model:ir.model,name:account_einvoice_generate.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke"
+msgstr "Podešavanja konfiguracije"
 
-#. module: account_e-invoice_generate
-#: model_terms:ir.ui.view,arch_db:account_e-invoice_generate.view_account_config_settings
+# taken from hr.po
+#. module: account_einvoice_generate
+#: model_terms:ir.ui.view,arch_db:account_einvoice_generate.view_account_config_settings
 msgid "Electronic Invoices"
 msgstr "Elektronički računi"
 
@@ -40,8 +47,9 @@ msgstr "Elektronički računi"
 msgid "Journal Entries"
 msgstr ""
 
-#. module: account_e-invoice_generate
-#: model:ir.model.fields.selection,name:account_e-invoice_generate.selection__res_company__xml_format_in_pdf_invoice__none
+# taken from hr.po
+#. module: account_einvoice_generate
+#: model:ir.model.fields.selection,name:account_einvoice_generate.selection__res_company__xml_format_in_pdf_invoice__none
 msgid "None"
 msgstr "Ništa"
 
@@ -50,8 +58,18 @@ msgstr "Ništa"
 msgid "Select the format of your e-invoices."
 msgstr ""
 
-#. module: account_e-invoice_generate
-#: model:ir.model.fields,field_description:account_e-invoice_generate.field_res_company__xml_format_in_pdf_invoice
-#: model:ir.model.fields,field_description:account_e-invoice_generate.field_res_config_settings__xml_format_in_pdf_invoice
+# taken from hr.po
+#. module: account_einvoice_generate
+#: model:ir.model.fields,field_description:account_einvoice_generate.field_res_company__xml_format_in_pdf_invoice
 msgid "XML Format embedded in PDF invoice"
-msgstr "XML format ugnježđen u PDF račun"
+msgstr "XML format ugrađen u PDF fakturu"
+
+#. module: account_einvoice_generate
+#: model:ir.model,name:account_einvoice_generate.model_account_move
+msgid "Journal Entry"
+msgstr "Knjiženje"
+
+#. module: account_einvoice_generate
+#: model_terms:ir.ui.view,arch_db:account_einvoice_generate.view_account_config_settings
+msgid "XML format attached to your PDF customer invoices"
+msgstr "XML format priložen vašim PDF fakturama za kupce"

@@ -15,28 +15,28 @@ msgstr ""
 
 #. module: base_business_document_import
 #. odoo-python
-#: code:addons/base_business_document_import/models/business_document_import.py:0
+#: code:addons/base_business_document_import/models/business_document_import.py
 #, python-format
 msgid "(fixed)"
 msgstr "(fiksno)"
 
 #. module: base_business_document_import
 #. odoo-python
-#: code:addons/base_business_document_import/models/business_document_import.py:0
+#: code:addons/base_business_document_import/models/business_document_import.py
 #, python-format
 msgid "<b>Notes in file %s:</b>"
 msgstr "<b>Bilješke u datoteci %s:</b>"
 
 #. module: base_business_document_import
 #. odoo-python
-#: code:addons/base_business_document_import/models/business_document_import.py:0
+#: code:addons/base_business_document_import/models/business_document_import.py
 #, python-format
 msgid "<b>Notes in imported document:</b>"
 msgstr "<b>Bilješke u uvezenom dokumentu:</b>"
 
 #. module: base_business_document_import
 #. odoo-python
-#: code:addons/base_business_document_import/models/business_document_import.py:0
+#: code:addons/base_business_document_import/models/business_document_import.py
 #, python-format
 msgid ""
 "<p>Odoo couldn't find any unit of measure corresponding to the following "
@@ -45,15 +45,22 @@ msgid ""
 "unit of measure 'Unit(s)' has been used. <em>You may have to change it "
 "manually.</em></p>"
 msgstr ""
+"<p>Odoo nije mogao pronaći jedinicu mjere koja odgovara sljedećim "
+"informacijama izvučenim iz poslovnog dokumenta:</p><ul><li>UNECE šifra: "
+"%(code)s</li><li>Naziv jedinice mjere: %(name)s</li></ul><p>Stoga je "
+"jedinica mjere 'Jedinica(e)' korištena. <em>Možda će te morati to "
+"promijeniti ručno.</em></p>"
 
 #. module: base_business_document_import
 #. odoo-python
-#: code:addons/base_business_document_import/models/business_document_import.py:0
+#: code:addons/base_business_document_import/models/business_document_import.py
 #, python-format
 msgid ""
 "Approximate match: account %(account)s has been matched with account "
 "%(matched_account)s"
 msgstr ""
+"Približno podudaranje: konto %(account)s je uparen sa kontom "
+"%(matched_account)s"
 
 #. module: base_business_document_import
 #: model:ir.model,name:base_business_document_import.model_business_document_import
@@ -62,14 +69,14 @@ msgstr "Zajedničke metode za uvoz poslovnih dokumenata"
 
 #. module: base_business_document_import
 #. odoo-python
-#: code:addons/base_business_document_import/models/business_document_import.py:0
+#: code:addons/base_business_document_import/models/business_document_import.py
 #, python-format
 msgid "Could not find any Incoterm in Odoo corresponding to '%s'"
 msgstr "Ne mogu pronaći nijedan Incoterm u Odoo-u koji odgovara '%s'"
 
 #. module: base_business_document_import
 #. odoo-python
-#: code:addons/base_business_document_import/models/business_document_import.py:0
+#: code:addons/base_business_document_import/models/business_document_import.py
 #, python-format
 msgid ""
 "For product '%(product)s', the unit of measure is %(uom_product)s on the "
@@ -77,38 +84,42 @@ msgid ""
 "support this scenario for the moment, so <b>the lines haven't been "
 "updated</b>."
 msgstr ""
+"Za proizvod '%(product)s', jedinica mjere je %(uom_product)s na postojećoj "
+"liniji, ali je %(uom_imported)s na uvezenoj liniji. Trenutno ne podržavamo "
+"ovaj scenarij, tako da <b>linije nisu ažurirane</b>."
 
 #. module: base_business_document_import
 #. odoo-python
-#: code:addons/base_business_document_import/models/business_document_import.py:0
+#: code:addons/base_business_document_import/models/business_document_import.py
 #, python-format
 msgid "IBAN <b>%s</b> is not valid, so it has been ignored."
 msgstr "IBAN <b>%s</b> nije važeći, tako da je ignoriran."
 
 #. module: base_business_document_import
 #. odoo-python
-#: code:addons/base_business_document_import/models/business_document_import.py:0
+#: code:addons/base_business_document_import/models/business_document_import.py
 #, python-format
 msgid "ID {id} of '{model}' doesn't exist in Odoo."
 msgstr "ID {id} od '{model}' ne postoji u Odoo-u."
 
 #. module: base_business_document_import
 #. odoo-python
-#: code:addons/base_business_document_import/models/business_document_import.py:0
+#: code:addons/base_business_document_import/models/business_document_import.py
 #, python-format
 msgid "Missing VAT number on company '%s'"
 msgstr "Nedostaje PDV broj na kompaniji '%s'"
 
 #. module: base_business_document_import
 #. odoo-python
-#: code:addons/base_business_document_import/models/business_document_import.py:0
+#: code:addons/base_business_document_import/models/business_document_import.py
 #, python-format
 msgid "No currency specified, so Odoo used the company currency (%s)"
-msgstr "Valuta nije specificirana, tako da je Odoo koristio valutu kompanije (%s)"
+msgstr ""
+"Valuta nije specificirana, tako da je Odoo koristio valutu kompanije (%s)"
 
 #. module: base_business_document_import
 #. odoo-python
-#: code:addons/base_business_document_import/models/business_document_import.py:0
+#: code:addons/base_business_document_import/models/business_document_import.py
 #, python-format
 msgid ""
 "Odoo couldn't find any %(label)s corresponding to the following information extracted from the business document:\n"
@@ -120,37 +131,51 @@ msgid ""
 "State code: %(state)s \n"
 "Country code: %(country)s \n"
 msgstr ""
+"Odoo nije mogao pronaći %(label)s koji odgovara sljedećim informacijama izvučenim iz poslovnog dokumenta:\n"
+"Naziv: %(name)s \n"
+"PDV broj: %(vat)s \n"
+"Referenca: %(ref)s \n"
+"E-mail: %(email)s \n"
+"Web stranica: %(website)s \n"
+"Šifra države: %(state)s \n"
+"Šifra zemlje: %(country)s \n"
 
 #. module: base_business_document_import
 #. odoo-python
-#: code:addons/base_business_document_import/models/business_document_import.py:0
+#: code:addons/base_business_document_import/models/business_document_import.py
 #, python-format
 msgid ""
 "Odoo couldn't find any account corresponding to the following information extracted from the business document:\n"
 "Account code: %s"
 msgstr ""
+"Odoo nije mogao pronaći konto koji odgovara sljedećim informacijama izvučenim iz poslovnog dokumenta:\n"
+"Šifra konta: %s"
 
 #. module: base_business_document_import
 #. odoo-python
-#: code:addons/base_business_document_import/models/business_document_import.py:0
+#: code:addons/base_business_document_import/models/business_document_import.py
 #, python-format
 msgid ""
 "Odoo couldn't find any analytic account corresponding to the following information extracted from the business document:\n"
 "Analytic account code: %s"
 msgstr ""
+"Odoo nije mogao pronaći analitički konto koji odgovara sljedećim informacijama izvučenim iz poslovnog dokumenta:\n"
+"Šifra analitičkog konta: %s"
 
 #. module: base_business_document_import
 #. odoo-python
-#: code:addons/base_business_document_import/models/business_document_import.py:0
+#: code:addons/base_business_document_import/models/business_document_import.py
 #, python-format
 msgid ""
 "Odoo couldn't find any journal corresponding to the following information extracted from the business document:\n"
 "Journal code: %s"
 msgstr ""
+"Odoo nije mogao pronaći dnevnik koji odgovara sljedećim informacijama izvučenim iz poslovnog dokumenta:\n"
+"Šifra dnevnika: %s"
 
 #. module: base_business_document_import
 #. odoo-python
-#: code:addons/base_business_document_import/models/business_document_import.py:0
+#: code:addons/base_business_document_import/models/business_document_import.py
 #, python-format
 msgid ""
 "Odoo couldn't find any product corresponding to the following information extracted from the business document:\n"
@@ -158,10 +183,14 @@ msgid ""
 "Product code: %(product_code)s\n"
 "Supplier: %(supplier)s\n"
 msgstr ""
+"Odoo nije mogao pronaći proizvod koji odgovara sljedećim informacijama izvučenim iz poslovnog dokumenta:\n"
+"Barkod: %(barcode)s\n"
+"Šifra proizvoda: %(product_code)s\n"
+"Dobavljač: %(supplier)s\n"
 
 #. module: base_business_document_import
 #. odoo-python
-#: code:addons/base_business_document_import/models/business_document_import.py:0
+#: code:addons/base_business_document_import/models/business_document_import.py
 #, python-format
 msgid ""
 "Odoo couldn't find any shipping partner corresponding to the following information extracted from the business document:\n"
@@ -177,10 +206,22 @@ msgid ""
 "State code: %(state)s\n"
 "Country code: %(country)s\n"
 msgstr ""
+"Odoo nije mogao pronaći partnera za isporuku koji odgovara sljedećim informacijama izvučenim iz poslovnog dokumenta:\n"
+"Naziv: %(name)s\n"
+"PDV broj: %(vat)s\n"
+"Referenca: %(ref)s\n"
+"E-mail: %(email)s\n"
+"Web stranica: %(website)s\n"
+"Ulica: %(street)s\n"
+"Ulica2: %(street2)s\n"
+"Grad: %(city)s\n"
+"Poštanski broj: %(zip)s\n"
+"Šifra države: %(state)s\n"
+"Šifra zemlje: %(country)s\n"
 
 #. module: base_business_document_import
 #. odoo-python
-#: code:addons/base_business_document_import/models/business_document_import.py:0
+#: code:addons/base_business_document_import/models/business_document_import.py
 #, python-format
 msgid ""
 "Odoo couldn't find any tax with 'Tax Application' = '%(tax)s' and 'Tax Included in Price' = '%(price)s' which correspond to the following information extracted from the business document:\n"
@@ -189,111 +230,140 @@ msgid ""
 "UNECE Due Date code: %(tax_due_date)s\n"
 "Tax amount: %(amount)s %(amount_type)s"
 msgstr ""
+"Odoo nije mogao pronaći porez sa 'Primjena poreza' = '%(tax)s' i 'Porez uključen u cijenu' = '%(price)s' koji odgovara sljedećim informacijama izvučenim iz poslovnog dokumenta:\n"
+"UNECE šifra tipa poreza: %(tax_type)s\n"
+"UNECE šifra kategorije poreza: %(tax_cat)s\n"
+"UNECE šifra datuma dospijeća: %(tax_due_date)s\n"
+"Iznos poreza: %(amount)s %(amount_type)s"
 
 #. module: base_business_document_import
 #. odoo-python
-#: code:addons/base_business_document_import/models/business_document_import.py:0
+#: code:addons/base_business_document_import/models/business_document_import.py
 #, python-format
 msgid ""
 "One of the imported lines doesn't have any product, so <b>the lines haven't "
 "been updated</b>."
 msgstr ""
+"Jedna od uvezenih linija nema proizvod, tako da <b>linije nisu "
+"ažurirane</b>."
 
 #. module: base_business_document_import
 #. odoo-python
-#: code:addons/base_business_document_import/models/business_document_import.py:0
+#: code:addons/base_business_document_import/models/business_document_import.py
 #, python-format
 msgid ""
 "The %(label)s has been identified by the domain name '%(domain)s' so please "
 "check carefully that the %(label)s is correct."
 msgstr ""
+"%(label)s je identifikovan po imenu domene '%(domain)s' stoga molimo "
+"pažljivo provjerite da li je %(label)s tačan."
 
 #. module: base_business_document_import
 #. odoo-python
-#: code:addons/base_business_document_import/models/business_document_import.py:0
+#: code:addons/base_business_document_import/models/business_document_import.py
 #, python-format
 msgid ""
 "The VAT number of the customer written in the business document "
 "(%(parsed_vat)s) doesn't match the VAT number of the company '%(company)s' "
 "(%(vat)s) in which you are trying to import this document."
 msgstr ""
+"PDV broj kupca upisan u poslovnom dokumentu (%(parsed_vat)s) ne odgovara PDV"
+" broju kompanije '%(company)s' (%(vat)s) u koju pokušavate uvesti ovaj "
+"dokument."
 
 #. module: base_business_document_import
 #. odoo-python
-#: code:addons/base_business_document_import/models/business_document_import.py:0
+#: code:addons/base_business_document_import/models/business_document_import.py
 #, python-format
 msgid "The XMLID '%s' doesn't exist in Odoo."
 msgstr "XMLID '%s' ne postoji u Odoo-u."
 
 #. module: base_business_document_import
 #. odoo-python
-#: code:addons/base_business_document_import/models/business_document_import.py:0
+#: code:addons/base_business_document_import/models/business_document_import.py
 #, python-format
 msgid ""
 "The analysis of the business document returned '%(code)s' as the country "
 "code to find the related currency. But the country '%(name)s' doesn't have "
 "any related currency configured in Odoo."
 msgstr ""
+"Analiza poslovnog dokumenta je vratila '%(code)s' kao šifru zemlje za "
+"pronalaženje povezane valute. Ali zemlja '%(name)s' nema konfiguriranu "
+"povezanu valutu u Odoo-u."
 
 #. module: base_business_document_import
 #. odoo-python
-#: code:addons/base_business_document_import/models/business_document_import.py:0
+#: code:addons/base_business_document_import/models/business_document_import.py
 #, python-format
 msgid ""
 "The analysis of the business document returned '%(code)s' as the currency "
 "symbol or ISO code. But there are none or several currencies with the "
 "symbol/ISO code in Odoo."
 msgstr ""
+"Analiza poslovnog dokumenta je vratila '%(code)s' kao simbol valute ili ISO "
+"šifru. Ali ne postoji nijedna ili postoji više valuta sa tim simbolom/ISO "
+"šifrom u Odoo-u."
 
 #. module: base_business_document_import
 #. odoo-python
-#: code:addons/base_business_document_import/models/business_document_import.py:0
+#: code:addons/base_business_document_import/models/business_document_import.py
 #, python-format
 msgid ""
 "The analysis of the business document returned '%(code)s' as the unit of "
 "measure UNECE code, but there is no unit of measure with that UNECE code in "
 "Odoo. Please check the configuration of the units of measures in Odoo."
 msgstr ""
+"Analiza poslovnog dokumenta je vratila '%(code)s' kao UNECE šifru jedinice "
+"mjere, ali ne postoji jedinica mjere sa tom UNECE šifrom u Odoo-u. Molimo "
+"provjerite konfiguraciju jedinica mjere u Odoo-u."
 
 #. module: base_business_document_import
 #. odoo-python
-#: code:addons/base_business_document_import/models/business_document_import.py:0
+#: code:addons/base_business_document_import/models/business_document_import.py
 #, python-format
 msgid ""
 "The analysis of the business document returned '%s' as country code. But "
 "there are no country with that code in Odoo."
 msgstr ""
+"Analiza poslovnog dokumenta je vratila '%s' kao šifru zemlje. Ali ne postoji"
+" zemlja sa tom šifrom u Odoo-u."
 
 #. module: base_business_document_import
 #. odoo-python
-#: code:addons/base_business_document_import/models/business_document_import.py:0
+#: code:addons/base_business_document_import/models/business_document_import.py
 #, python-format
 msgid ""
 "The analysis of the business document returned '%s' as the country code to "
 "find the related currency. But there is no country with that code in Odoo."
 msgstr ""
+"Analiza poslovnog dokumenta je vratila '%s' kao šifru zemlje za pronalaženje"
+" povezane valute. Ali ne postoji zemlja sa tom šifrom u Odoo-u."
 
 #. module: base_business_document_import
 #. odoo-python
-#: code:addons/base_business_document_import/models/business_document_import.py:0
+#: code:addons/base_business_document_import/models/business_document_import.py
 #, python-format
 msgid ""
 "The analysis of the business document returned '%s' as the currency ISO "
 "code. But there are no currency with that code in Odoo."
 msgstr ""
+"Analiza poslovnog dokumenta je vratila '%s' kao ISO šifru valute. Ali ne "
+"postoji valuta sa tom šifrom u Odoo-u."
 
 #. module: base_business_document_import
 #. odoo-python
-#: code:addons/base_business_document_import/models/business_document_import.py:0
+#: code:addons/base_business_document_import/models/business_document_import.py
 #, python-format
 msgid ""
 "The analysis of the business document returned '%s' as the currency symbol. "
 "But there are none or several currencies with that symbol in Odoo."
 msgstr ""
+"Analiza poslovnog dokumenta je vratila '%s' kao simbol valute. Ali ne "
+"postoji nijedna ili postoji više valuta sa tim simbolom u Odoo-u."
 
 #. module: base_business_document_import
 #. odoo-python
-#: code:addons/base_business_document_import/models/business_document_import.py:0
+#: code:addons/base_business_document_import/models/business_document_import.py
 #, python-format
 msgid ""
 "The analysis of the business document returned <b>IBAN %(iban)s</b> as bank "
@@ -302,71 +372,84 @@ msgid ""
 "and the option to automatically create bank accounts upon import is "
 "disabled."
 msgstr ""
+"Analiza poslovnog dokumenta je vratila <b>IBAN %(iban)s</b> kao bankovni "
+"račun, ali ne postoji takav bankovni račun u Odoo-u povezan sa partnerom <a "
+"href=# data-oe-model=res.partner data-oe-id=%(partner_id)d>%(partner)s</a> i"
+" opcija automatskog kreiranja bankovnih računa pri uvozu je onemogućena."
 
 #. module: base_business_document_import
 #. odoo-python
-#: code:addons/base_business_document_import/models/business_document_import.py:0
+#: code:addons/base_business_document_import/models/business_document_import.py
 #, python-format
 msgid ""
 "The bank account <b>IBAN %(iban)s</b> has been automatically added on the "
 "supplier <a href=# data-oe-model=res.partner data-oe-"
 "id=%(partner_id)d>%(partner)s</a>"
 msgstr ""
+"Bankovni račun <b>IBAN %(iban)s</b> je automatski dodat dobavljaču <a href=#"
+" data-oe-model=res.partner data-oe-id=%(partner_id)d>%(partner)s</a>"
 
 #. module: base_business_document_import
 #. odoo-python
-#: code:addons/base_business_document_import/models/business_document_import.py:0
+#: code:addons/base_business_document_import/models/business_document_import.py
 #, python-format
 msgid ""
 "The existing line '%s' doesn't have any product, so <b>the lines haven't "
 "been updated</b>."
 msgstr ""
+"The existing line '%s' doesn't have any product, so <b>the lines haven't "
+"been updated</b>."
 
 #. module: base_business_document_import
 #. odoo-python
-#: code:addons/base_business_document_import/models/business_document_import.py:0
+#: code:addons/base_business_document_import/models/business_document_import.py
 #, python-format
 msgid ""
 "The product '%s' is used on several existing lines, so <b>the lines haven't "
 "been updated</b>."
 msgstr ""
+"The product '%s' is used on several existing lines, so <b>the lines haven't "
+"been updated</b>."
 
 #. module: base_business_document_import
 #. odoo-python
-#: code:addons/base_business_document_import/models/business_document_import.py:0
+#: code:addons/base_business_document_import/models/business_document_import.py
 #, python-format
 msgid ""
 "The product '%s' is used on several imported lines, so <b>the lines haven't "
 "been updated</b>."
 msgstr ""
+"The product '%s' is used on several imported lines, so <b>the lines haven't "
+"been updated</b>."
 
 #. module: base_business_document_import
 #. odoo-python
-#: code:addons/base_business_document_import/models/business_document_import.py:0
-#: code:addons/base_business_document_import/models/business_document_import.py:0
+#: code:addons/base_business_document_import/models/business_document_import.py
 #, python-format
 msgid ""
 "The record '{record}' is an instance of '{record_model}', not of "
 "'{target_model}'."
 msgstr ""
+"The record '{record}' is an instance of '{record_model}', not of "
+"'{target_model}'."
 
 #. module: base_business_document_import
 #. odoo-python
-#: code:addons/base_business_document_import/models/business_document_import.py:0
+#: code:addons/base_business_document_import/models/business_document_import.py
 #, python-format
 msgid "customer"
 msgstr "kupac"
 
 #. module: base_business_document_import
 #. odoo-python
-#: code:addons/base_business_document_import/models/business_document_import.py:0
+#: code:addons/base_business_document_import/models/business_document_import.py
 #, python-format
 msgid "partner"
 msgstr "partner"
 
 #. module: base_business_document_import
 #. odoo-python
-#: code:addons/base_business_document_import/models/business_document_import.py:0
+#: code:addons/base_business_document_import/models/business_document_import.py
 #, python-format
 msgid "supplier"
 msgstr "dobavljač"

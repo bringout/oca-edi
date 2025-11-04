@@ -13,44 +13,49 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: base_ubl
 #: model:ir.model,name:base_ubl.model_base_ubl
 msgid "Common methods to generate and parse UBL XML files"
 msgstr "Uobičajene metode za generiranje i parsiranje UBL XML datoteka"
 
+# taken from hr.po
 #. module: base_ubl
 #. odoo-python
-#: code:addons/base_ubl/models/ubl.py:0
+#: code:addons/base_ubl/models/ubl.py
 #, python-format
 msgid "Missing UNECE Tax Category on tax '%(tax_name)s'"
 msgstr "Nedostaje UNECE kategorija poreza na '%(tax_name)s'"
 
+# taken from hr.po
 #. module: base_ubl
 #. odoo-python
-#: code:addons/base_ubl/models/ubl.py:0
+#: code:addons/base_ubl/models/ubl.py
 #, python-format
 msgid "Missing UNECE Tax Type on tax '%(tax_name)s'"
 msgstr "Nedostaje UNECE tip poreza na '%(tax_name)s'"
 
+# taken from hr.po
 #. module: base_ubl
 #. odoo-python
-#: code:addons/base_ubl/models/ubl.py:0
+#: code:addons/base_ubl/models/ubl.py
 #, python-format
 msgid "Missing UNECE code on unit of measure '%s'"
 msgstr "Nedostaje UNECE šifra jedinice mjere za '%s'"
 
 #. module: base_ubl
 #. odoo-python
-#: code:addons/base_ubl/models/ubl.py:0
+#: code:addons/base_ubl/models/ubl.py
 #, python-format
 msgid ""
 "The UBL XML file does not contain the version for validating the content "
 "according to the schema."
 msgstr ""
+"UBL XML datoteka ne sadrži verziju za validaciju sadržaja prema shemi."
 
 #. module: base_ubl
 #. odoo-python
-#: code:addons/base_ubl/models/ubl.py:0
+#: code:addons/base_ubl/models/ubl.py
 #, python-format
 msgid ""
 "The UBL XML file is not valid against the official XML Schema Definition. "
@@ -58,3 +63,6 @@ msgid ""
 "is the error, which may give you an idea on the cause of the problem : "
 "%(error)s."
 msgstr ""
+"UBL XML datoteka nije validna u odnosu na zvaničnu XML shemu. XML datoteka i"
+" kompletna greška su zapisani u logovima servera. Ovo je greška koja vam "
+"može pomoći da utvrdite uzrok problema: %(error)s."

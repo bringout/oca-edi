@@ -13,16 +13,20 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: base_ubl_payment
 #: model:ir.model,name:base_ubl_payment.model_base_ubl
 msgid "Common methods to generate and parse UBL XML files"
 msgstr "Zajedničke metode za generiranje i parsiranje UBL XML datoteka"
 
+# taken from hr.po
 #. module: base_ubl_payment
 #. odoo-python
-#: code:addons/base_ubl_payment/models/ubl.py:0
+#: code:addons/base_ubl_payment/models/ubl.py
 #, python-format
 msgid ""
 "Missing 'UNECE Payment Mean' on payment type '{method}' used by the payment "
 "mode '{mode}'."
 msgstr ""
+"Nedostaje UNECE šifra načina plaćanja '{method}' korštenog na tipu plaćanja "
+"'{mode}'."

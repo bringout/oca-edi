@@ -15,15 +15,12 @@ msgstr ""
 
 #. module: account_invoice_export
 #: model:ir.model.fields,help:account_invoice_export.field_account_bank_statement_line__send_through_http
-#: model:ir.model.fields,help:account_invoice_export.field_account_move__send_through_http
-#: model:ir.model.fields,help:account_invoice_export.field_account_payment__send_through_http
-#: model:ir.model.fields,help:account_invoice_export.field_transmit_method__send_through_http
 msgid "Adds a Send eBill button on the invoice"
 msgstr "Dodaje dugme Pošalji elektronski račun na fakturu"
 
 #. module: account_invoice_export
 #. odoo-python
-#: code:addons/account_invoice_export/models/account_move.py:0
+#: code:addons/account_invoice_export/models/account_move.py
 #, python-format
 msgid "An error of type {} occured."
 msgstr "Desila se greška tipa {}."
@@ -34,17 +31,18 @@ msgid ""
 "By default the PDF of the invoice will be sent using the connection "
 "parameters below (basic authenticaiton)."
 msgstr ""
+"Podrazumijevano će PDF fakture biti poslan koristeći parametre konekcije "
+"ispod (osnovna autentifikacija)."
 
 #. module: account_invoice_export
 #: model_terms:ir.ui.view,arch_db:account_invoice_export.view_move_form
 msgid "Ebill has already been sent. Are you sure you want to send it again ?"
-msgstr "Elektronski račun je već poslat. Da li ste sigurni da želite da ga pošaljete ponovo?"
+msgstr ""
+"Elektronski račun je već poslat. Da li ste sigurni da želite da ga pošaljete"
+" ponovo?"
 
 #. module: account_invoice_export
 #: model:ir.model.fields,field_description:account_invoice_export.field_account_bank_statement_line__send_through_http
-#: model:ir.model.fields,field_description:account_invoice_export.field_account_move__send_through_http
-#: model:ir.model.fields,field_description:account_invoice_export.field_account_payment__send_through_http
-#: model:ir.model.fields,field_description:account_invoice_export.field_transmit_method__send_through_http
 msgid "Enable send eBill"
 msgstr "Omogući slanje elektronskog računa"
 
@@ -55,7 +53,7 @@ msgstr "Greška prilikom slanja fakture na"
 
 #. module: account_invoice_export
 #. odoo-python
-#: code:addons/account_invoice_export/models/account_move.py:0
+#: code:addons/account_invoice_export/models/account_move.py
 #, python-format
 msgid "HTTP error {status_code} sending invoice to {method_name}"
 msgstr "HTTP greška {status_code} prilikom slanja fakture na {method_name}"
@@ -66,24 +64,22 @@ msgid ""
 "Handling specific connection needs and/or exporting other files can be done "
 "through code."
 msgstr ""
+"Rukovanje specifičnim potrebama konekcije i/ili izvoz drugih datoteka može "
+"biti urađeno kroz kod."
 
 #. module: account_invoice_export
 #: model:ir.model.fields,field_description:account_invoice_export.field_account_bank_statement_line__invoice_export_confirmed
-#: model:ir.model.fields,field_description:account_invoice_export.field_account_move__invoice_export_confirmed
-#: model:ir.model.fields,field_description:account_invoice_export.field_account_payment__invoice_export_confirmed
 msgid "Invoice Export Confirmed"
 msgstr "Izvoz fakture potvrđen"
 
 #. module: account_invoice_export
 #: model:ir.model.fields,field_description:account_invoice_export.field_account_bank_statement_line__invoice_exported
-#: model:ir.model.fields,field_description:account_invoice_export.field_account_move__invoice_exported
-#: model:ir.model.fields,field_description:account_invoice_export.field_account_payment__invoice_exported
 msgid "Invoice Exported"
 msgstr "Faktura izvezena"
 
 #. module: account_invoice_export
 #. odoo-python
-#: code:addons/account_invoice_export/models/account_move.py:0
+#: code:addons/account_invoice_export/models/account_move.py
 #, python-format
 msgid "Invoice successfuly sent to {}"
 msgstr "Faktura uspešno poslata na {}"
@@ -95,7 +91,7 @@ msgstr "Žurnal"
 
 #. module: account_invoice_export
 #. odoo-python
-#: code:addons/account_invoice_export/models/account_move.py:0
+#: code:addons/account_invoice_export/models/account_move.py
 #, python-format
 msgid "Nothing done, invoice has already been exported before."
 msgstr "Ništa nije urađeno, faktura je već ranije izvezena."
@@ -112,7 +108,6 @@ msgstr "Pošalji ponovo elektronski račun"
 
 #. module: account_invoice_export
 #: model:ir.actions.server,name:account_invoice_export.action_send_ebill
-#: model_terms:ir.ui.view,arch_db:account_invoice_export.view_move_form
 msgid "Send eBill"
 msgstr "Pošalji elektronski račun"
 
@@ -133,7 +128,7 @@ msgstr "Metoda prijenosa dokumenta"
 
 #. module: account_invoice_export
 #. odoo-python
-#: code:addons/account_invoice_export/models/account_move.py:0
+#: code:addons/account_invoice_export/models/account_move.py
 #, python-format
 msgid "Transmit method is not configured to send through HTTP"
 msgstr "Metod prenosa nije konfigurisan da šalje preko HTTP"
@@ -141,7 +136,7 @@ msgstr "Metod prenosa nije konfigurisan da šalje preko HTTP"
 #. module: account_invoice_export
 #: model:ir.model.fields,field_description:account_invoice_export.field_transmit_method__destination_url
 msgid "Url"
-msgstr "Url"
+msgstr "URL"
 
 #. module: account_invoice_export
 #: model:ir.model.fields,field_description:account_invoice_export.field_transmit_method__destination_user

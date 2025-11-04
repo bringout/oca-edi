@@ -1,0 +1,19 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Language: bs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. module: despatch_advice_import_ubl
+#: model:ir.model,name:despatch_advice_import_ubl.model_despatch_advice_import
+msgid "Despatch Advice Import from Files"
+msgstr "Uvoz otpremnog savjeta iz datoteka"
+
+#. module: despatch_advice_import_ubl
+#: code:addons/despatch_advice_import_ubl/wizard/despatch_advice_import.py
+#, python-format
+msgid "Missing line ID in the Despatch Advice."
+msgstr "Nedostaje ID linije u otpremnom savjetu."

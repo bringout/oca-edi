@@ -13,6 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: pdf_helper
 #: model:ir.model,name:pdf_helper.model_pdf_helper
 msgid "PDF Helper"

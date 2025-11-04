@@ -13,6 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: base_business_document_import_phone
 #: model:ir.model,name:base_business_document_import_phone.model_business_document_import
 msgid "Common methods to import business documents"

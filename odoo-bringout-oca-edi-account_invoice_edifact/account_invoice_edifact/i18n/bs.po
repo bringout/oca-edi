@@ -20,7 +20,7 @@ msgstr "Žurnal"
 
 #. module: account_invoice_edifact
 #. odoo-python
-#: code:addons/account_invoice_edifact/models/account_move.py:0
+#: code:addons/account_invoice_edifact/models/account_move.py
 #, python-format
 msgid "Partner is not allowed to use the feature."
 msgstr "Partneru nije dozvoljeno da koristi ovu funkciju."
