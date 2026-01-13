@@ -89,7 +89,7 @@ msgstr "Nalog kupca"
 #. module: sale_order_import
 #: model:ir.model.fields,field_description:sale_order_import.field_sale_order_import__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Prikazani naziv"
 
 #. module: sale_order_import
 #: model:ir.model.fields,field_description:sale_order_import.field_sale_order_import__doc_type
@@ -147,17 +147,17 @@ msgstr "Tip uvoza"
 #. module: sale_order_import
 #: model:ir.model.fields,field_description:sale_order_import.field_sale_order_import____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnja izmjena na"
 
 #. module: sale_order_import
 #: model:ir.model.fields,field_description:sale_order_import.field_sale_order_import__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: sale_order_import
 #: model:ir.model.fields,field_description:sale_order_import.field_sale_order_import__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: sale_order_import
 #: code:addons/sale_order_import/wizard/sale_order_import.py

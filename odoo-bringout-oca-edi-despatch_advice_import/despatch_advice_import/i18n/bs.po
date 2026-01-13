@@ -58,7 +58,7 @@ msgstr "Uvoz otpremnog savjeta iz datoteka"
 #. module: despatch_advice_import
 #: model:ir.model.fields,field_description:despatch_advice_import.field_despatch_advice_import__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Prikazani naziv"
 
 #. module: despatch_advice_import
 #: model:ir.model.fields,field_description:despatch_advice_import.field_despatch_advice_import__filename
@@ -101,17 +101,17 @@ msgstr "Uvezi dokument"
 #. module: despatch_advice_import
 #: model:ir.model.fields,field_description:despatch_advice_import.field_despatch_advice_import____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnja izmjena na"
 
 #. module: despatch_advice_import
 #: model:ir.model.fields,field_description:despatch_advice_import.field_despatch_advice_import__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: despatch_advice_import
 #: model:ir.model.fields,field_description:despatch_advice_import.field_despatch_advice_import__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: despatch_advice_import
 #: code:addons/despatch_advice_import/wizard/despatch_advice_import.py

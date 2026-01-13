@@ -177,7 +177,7 @@ msgstr "(bez datuma)"
 #. module: account_invoice_facturx
 #: model:ir.model,name:account_invoice_facturx.model_res_config_settings
 msgid "Config Settings"
-msgstr "Podešavanja konfiguracije"
+msgstr "Postavke konfiguracije"
 
 #. module: account_invoice_facturx
 #: code:addons/account_invoice_facturx/models/account_move.py
