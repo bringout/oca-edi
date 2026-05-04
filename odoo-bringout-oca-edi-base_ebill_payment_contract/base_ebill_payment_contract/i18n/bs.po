@@ -55,7 +55,7 @@ msgstr "ID"
 #. module: base_ebill_payment_contract
 #: model:ir.model.fields,field_description:base_ebill_payment_contract.field_ebill_payment_contract__is_valid
 msgid "Is Valid"
-msgstr "Is Valid"
+msgstr ""
 
 #. module: base_ebill_payment_contract
 #: model:ir.model.fields,field_description:base_ebill_payment_contract.field_ebill_payment_contract____last_update
@@ -65,7 +65,7 @@ msgstr "Zadnja izmjena"
 #. module: base_ebill_payment_contract
 #: model:ir.model.fields,field_description:base_ebill_payment_contract.field_ebill_payment_contract__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažurirao"
+msgstr "Zadnji ažurirao"
 
 #. module: base_ebill_payment_contract
 #: model:ir.model.fields,field_description:base_ebill_payment_contract.field_ebill_payment_contract__write_date
@@ -85,7 +85,7 @@ msgstr "Otvoreno"
 #. module: base_ebill_payment_contract
 #: model:ir.model.fields,field_description:base_ebill_payment_contract.field_ebill_payment_contract__transmit_method_id
 msgid "Service Name"
-msgstr "Service Name"
+msgstr ""
 
 #. module: base_ebill_payment_contract
 #: model:ir.model.fields,field_description:base_ebill_payment_contract.field_ebill_payment_contract__date_start
@@ -95,14 +95,14 @@ msgstr "Datum početka"
 #. module: base_ebill_payment_contract
 #: model:ir.model.fields,field_description:base_ebill_payment_contract.field_ebill_payment_contract__state
 msgid "State"
-msgstr "Država/pokrajina"
+msgstr "Entitet/Kanton"
 
 #. module: base_ebill_payment_contract
 #: model_terms:ir.ui.view,arch_db:base_ebill_payment_contract.ebill_payment_contract_search_view
 msgid "Valid"
-msgstr "Valid"
+msgstr ""
 
 #. module: base_ebill_payment_contract
 #: model:ir.actions.act_window,name:base_ebill_payment_contract.ebill_payment_contract_act_window
 msgid "eBill Payment Contract"
-msgstr "eBill Payment Contract"
+msgstr ""

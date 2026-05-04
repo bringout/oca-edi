@@ -8,25 +8,25 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. module: sale_order_import
-#: code:addons/sale_order_import/models/sale.py
+#: code:addons/sale_order_import/models/sale.py:0
 #, python-format
 msgid " Amount w/o tax: %(amount)s %(currency)s"
 msgstr "Iznos bez poreza: %(amount)s %(currency)s"
 
 #. module: sale_order_import
-#: code:addons/sale_order_import/wizard/sale_order_import.py
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
 #, python-format
 msgid "%(orders)s new order line(s) created: %(label)s"
 msgstr "%(orders)s nova stavka(e) naloga kreirana(e): %(label)s"
 
 #. module: sale_order_import
-#: code:addons/sale_order_import/wizard/sale_order_import.py
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
 #, python-format
 msgid "%(orders)s order line(s) deleted: %(label)s"
 msgstr "%(orders)s stavka(e) naloga obrisana(e): %(label)s"
 
 #. module: sale_order_import
-#: code:addons/sale_order_import/wizard/sale_order_import.py
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
 #, python-format
 msgid ""
 "An order of customer '%(partner)s' with reference '%(ref)s' already exists: "
@@ -61,7 +61,7 @@ msgid "Create New"
 msgstr "Kreiraj novi"
 
 #. module: sale_order_import
-#: code:addons/sale_order_import/wizard/sale_order_import.py
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
 #, python-format
 msgid "Created automatically via file import (%s)."
 msgstr "Kreiran automatski putem importa datoteke (%s)."
@@ -152,7 +152,7 @@ msgstr "Zadnja izmjena"
 #. module: sale_order_import
 #: model:ir.model.fields,field_description:sale_order_import.field_sale_order_import__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažurirao"
+msgstr "Zadnji ažurirao"
 
 #. module: sale_order_import
 #: model:ir.model.fields,field_description:sale_order_import.field_sale_order_import__write_date
@@ -160,13 +160,13 @@ msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
 #. module: sale_order_import
-#: code:addons/sale_order_import/wizard/sale_order_import.py
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
 #, python-format
 msgid "No data provided"
 msgstr "Nema podataka"
 
 #. module: sale_order_import
-#: code:addons/sale_order_import/wizard/sale_order_import.py
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
 #, python-format
 msgid ""
 "No price is defined in the file. Please double check file or select "
@@ -181,7 +181,7 @@ msgid "PDF"
 msgstr "PDF"
 
 #. module: sale_order_import
-#: code:addons/sale_order_import/wizard/sale_order_import.py
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
 #, python-format
 msgid "Please select a valid import type before importing!"
 msgstr "Molimo odaberite važeći tip uvoza prije uvoza!"
@@ -189,7 +189,7 @@ msgstr "Molimo odaberite važeći tip uvoza prije uvoza!"
 #. module: sale_order_import
 #: model:ir.model.fields.selection,name:sale_order_import.selection__sale_order_import__price_source__pricelist
 msgid "Pricelist"
-msgstr "Cjenik"
+msgstr "Cjenovnik"
 
 #. module: sale_order_import
 #: model:ir.model.fields,field_description:sale_order_import.field_sale_order_import__sale_id
@@ -219,7 +219,7 @@ msgstr "Uvoz prodajnog naloga iz datoteka"
 #. module: sale_order_import
 #: model:ir.model,name:sale_order_import.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 #. module: sale_order_import
 #: model:ir.model.fields,help:sale_order_import.field_sale_order_import__import_type
@@ -245,10 +245,10 @@ msgstr ""
 #. module: sale_order_import
 #: model:ir.model.fields,field_description:sale_order_import.field_sale_order_import__state
 msgid "State"
-msgstr "Država/pokrajina"
+msgstr "Entitet/Kanton"
 
 #. module: sale_order_import
-#: code:addons/sale_order_import/wizard/sale_order_import.py
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
 #, python-format
 msgid ""
 "The currency of the imported order (%(old)s) is different from the currency "
@@ -258,7 +258,7 @@ msgstr ""
 "(%(new)s)"
 
 #. module: sale_order_import
-#: code:addons/sale_order_import/wizard/sale_order_import.py
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
 #, python-format
 msgid ""
 "The customer '%(name)s' has a pricelist '%(pricelist)s' but the currency of "
@@ -268,7 +268,7 @@ msgstr ""
 "'%(currency)s'."
 
 #. module: sale_order_import
-#: code:addons/sale_order_import/wizard/sale_order_import.py
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
 #, python-format
 msgid ""
 "The quantity has been updated on the order line with product '%(product)s' "
@@ -278,7 +278,7 @@ msgstr ""
 "%(qty0)s na %(qty1)s %(uom)s"
 
 #. module: sale_order_import
-#: code:addons/sale_order_import/wizard/sale_order_import.py
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
 #, python-format
 msgid ""
 "The unit price has been updated on the order line with product '%(product)s'"
@@ -288,13 +288,13 @@ msgstr ""
 " %(old)s na %(new)s %(currency)s"
 
 #. module: sale_order_import
-#: code:addons/sale_order_import/wizard/sale_order_import.py
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
 #, python-format
 msgid "There are no embedded XML file in this PDF file."
 msgstr "Nema ugrađenih XML datoteka u ovoj PDF datoteci."
 
 #. module: sale_order_import
-#: code:addons/sale_order_import/wizard/sale_order_import.py
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
 #, python-format
 msgid ""
 "This Import Type is not supported. Did you install the module to support "
@@ -304,13 +304,13 @@ msgstr ""
 "tipa?"
 
 #. module: sale_order_import
-#: code:addons/sale_order_import/wizard/sale_order_import.py
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
 #, python-format
 msgid "This XML file is not XML-compliant"
 msgstr "Ova XML datoteka nije u skladu sa XML standardom"
 
 #. module: sale_order_import
-#: code:addons/sale_order_import/wizard/sale_order_import.py
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
 #, python-format
 msgid ""
 "This file '%(filename)s' is not recognized as a %(type)s file. Please check "
@@ -320,7 +320,7 @@ msgstr ""
 "provjerite datoteku i njenu ekstenziju."
 
 #. module: sale_order_import
-#: code:addons/sale_order_import/wizard/sale_order_import.py
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
 #, python-format
 msgid ""
 "This file '%s' is not recognised as a XML nor PDF file. Please check the "
@@ -330,20 +330,20 @@ msgstr ""
 "provjerite datoteku i njenu ekstenziju."
 
 #. module: sale_order_import
-#: code:addons/sale_order_import/wizard/sale_order_import.py
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
 #, python-format
 msgid "This order doesn't have any line !"
 msgstr "Ovaj nalog nema stavki!"
 
 #. module: sale_order_import
-#: code:addons/sale_order_import/wizard/sale_order_import.py
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
 #, python-format
 msgid ""
 "This quotation has been updated automatically via the import of file %s"
 msgstr "Ova ponuda je automatski ažurirana putem uvoza datoteke %s"
 
 #. module: sale_order_import
-#: code:addons/sale_order_import/wizard/sale_order_import.py
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
 #, python-format
 msgid ""
 "This type of XML RFQ/order is not supported. Did you install the module to "
@@ -358,7 +358,7 @@ msgid "Universal Business Language"
 msgstr "Univerzalni poslovni jezik"
 
 #. module: sale_order_import
-#: code:addons/sale_order_import/wizard/sale_order_import.py
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
 #, python-format
 msgid "Unsupported file format"
 msgstr "Nepodržan format datoteke"
@@ -397,7 +397,7 @@ msgid "XML"
 msgstr "XML"
 
 #. module: sale_order_import
-#: code:addons/sale_order_import/wizard/sale_order_import.py
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
 #, python-format
 msgid "You must select a quotation to update."
 msgstr "Morate odabrati ponudu za ažuriranje."

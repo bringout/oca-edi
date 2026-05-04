@@ -35,7 +35,7 @@ msgid "Companies"
 msgstr "Kompanije"
 
 #. module: account_invoice_facturx
-#: code:addons/account_invoice_facturx/models/account_move.py
+#: code:addons/account_invoice_facturx/models/account_move.py:0
 #, python-format
 msgid ""
 "Country is not set on partner '%s'. In the Factur-X standard, the country is"
@@ -50,10 +50,10 @@ msgid "EN 16931 (Comfort)"
 msgstr "EN 16931 (Komfor)"
 
 #. module: account_invoice_facturx
-#: code:addons/account_invoice_facturx/models/account_move.py
+#: code:addons/account_invoice_facturx/models/account_move.py:0
 #, python-format
 msgid "Factur-X"
-msgstr "Factur-X"
+msgstr ""
 
 #. module: account_invoice_factur-x
 #: model:ir.ui.view,arch_db:account_invoice_factur-x.view_account_config_settings
@@ -76,7 +76,7 @@ msgid "Factur-X Refund Type"
 msgstr "Factur-X tip povrata"
 
 #. module: account_invoice_facturx
-#: code:addons/account_invoice_facturx/models/account_move.py
+#: code:addons/account_invoice_facturx/models/account_move.py:0
 #, python-format
 msgid "Invoice"
 msgstr "Faktura"
@@ -89,16 +89,16 @@ msgstr "Logo za uključivanje u vidljivi dio Factur-X faktura"
 #. module: account_invoice_facturx
 #: model:ir.model.fields.selection,name:account_invoice_facturx.selection__res_company__facturx_level__minimum
 msgid "Minimum"
-msgstr "Minimum"
+msgstr ""
 
 #. module: account_invoice_facturx
-#: code:addons/account_invoice_facturx/models/account_move.py
+#: code:addons/account_invoice_facturx/models/account_move.py:0
 #, python-format
 msgid "Missing UNECE Tax Category on tax '%s'"
 msgstr "Nedostaje UNECE kategorija poreza na porezu '%s'"
 
 #. module: account_invoice_facturx
-#: code:addons/account_invoice_facturx/models/account_move.py
+#: code:addons/account_invoice_facturx/models/account_move.py:0
 #, python-format
 msgid "Missing UNECE Tax Type on tax '%s'"
 msgstr "Nedostaje UNECE tip poreza na porezu '%s'"
@@ -110,13 +110,13 @@ msgid "Missing UNECE code on payment export type '%s'"
 msgstr "Nedostaje UNECE kod na tipu izvoza plaćanja '%s'"
 
 #. module: account_invoice_facturx
-#: code:addons/account_invoice_facturx/models/account_move.py
+#: code:addons/account_invoice_facturx/models/account_move.py:0
 #, python-format
 msgid "No specific payment term selected"
 msgstr "Nije odabran specifičan rok plaćanja"
 
 #. module: account_invoice_facturx
-#: code:addons/account_invoice_facturx/models/account_move.py
+#: code:addons/account_invoice_facturx/models/account_move.py:0
 #, python-format
 msgid "Refund"
 msgstr "Povrat"
@@ -158,7 +158,7 @@ msgstr ""
 "što je zadana vrijednost."
 
 #. module: account_invoice_facturx
-#: code:addons/account_invoice_facturx/models/account_move.py
+#: code:addons/account_invoice_facturx/models/account_move.py:0
 #, python-format
 msgid "Wire transfer"
 msgstr "Bankarski prijenos"
@@ -169,7 +169,7 @@ msgid "account.config.settings"
 msgstr "account.config.settings"
 
 #. module: account_invoice_facturx
-#: code:addons/account_invoice_facturx/models/account_move.py
+#: code:addons/account_invoice_facturx/models/account_move.py:0
 #, python-format
 msgid "(no date)"
 msgstr "(bez datuma)"
@@ -180,7 +180,7 @@ msgid "Config Settings"
 msgstr "Podešavanja konfiguracije"
 
 #. module: account_invoice_facturx
-#: code:addons/account_invoice_facturx/models/account_move.py
+#: code:addons/account_invoice_facturx/models/account_move.py:0
 #, python-format
 msgid "Discount"
 msgstr "Popust"
@@ -193,10 +193,10 @@ msgstr "Prošireni"
 #. module: account_invoice_facturx
 #: model:ir.model.fields.selection,name:account_invoice_facturx.selection__res_company__xml_format_in_pdf_invoice__factur-x
 msgid "Factur-X (CII)"
-msgstr "Factur-X (CII)"
+msgstr ""
 
 #. module: account_invoice_facturx
-#: code:addons/account_invoice_facturx/models/account_move.py
+#: code:addons/account_invoice_facturx/models/account_move.py:0
 #, python-format
 msgid ""
 "Factur-X {invoice_type} {invoice_number} dated {invoice_date} issued by "
@@ -208,16 +208,16 @@ msgstr ""
 #. module: account_invoice_facturx
 #: model:ir.model,name:account_invoice_facturx.model_account_move
 msgid "Journal Entry"
-msgstr "Knjiženje"
+msgstr "Stavka dnevnika"
 
 #. module: account_invoice_facturx
-#: code:addons/account_invoice_facturx/models/account_move.py
+#: code:addons/account_invoice_facturx/models/account_move.py:0
 #, python-format
 msgid "Missing UNECE code on payment method '%s'"
 msgstr "Nedostaje UNECE šifra na načinu plaćanja '%s'"
 
 #. module: account_invoice_facturx
-#: code:addons/account_invoice_facturx/models/account_move.py
+#: code:addons/account_invoice_facturx/models/account_move.py:0
 #, python-format
 msgid "No invoice line label"
 msgstr "Nema oznake stavke fakture"
@@ -233,7 +233,7 @@ msgid "XML Format embedded in PDF invoice"
 msgstr "XML format ugrađen u PDF fakturu"
 
 #. module: account_invoice_facturx
-#: code:addons/account_invoice_facturx/models/account_move.py
+#: code:addons/account_invoice_facturx/models/account_move.py:0
 #, python-format
 msgid "{company_name}: {invoice_type} {invoice_number} dated {invoice_date}"
 msgstr ""

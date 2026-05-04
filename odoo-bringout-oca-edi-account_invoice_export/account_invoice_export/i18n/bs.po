@@ -20,7 +20,7 @@ msgstr "Dodaje dugme Pošalji elektronski račun na fakturu"
 
 #. module: account_invoice_export
 #. odoo-python
-#: code:addons/account_invoice_export/models/account_move.py
+#: code:addons/account_invoice_export/models/account_move.py:0
 #, python-format
 msgid "An error of type {} occured."
 msgstr "Desila se greška tipa {}."
@@ -53,7 +53,7 @@ msgstr "Greška prilikom slanja fakture na"
 
 #. module: account_invoice_export
 #. odoo-python
-#: code:addons/account_invoice_export/models/account_move.py
+#: code:addons/account_invoice_export/models/account_move.py:0
 #, python-format
 msgid "HTTP error {status_code} sending invoice to {method_name}"
 msgstr "HTTP greška {status_code} prilikom slanja fakture na {method_name}"
@@ -79,7 +79,7 @@ msgstr "Faktura izvezena"
 
 #. module: account_invoice_export
 #. odoo-python
-#: code:addons/account_invoice_export/models/account_move.py
+#: code:addons/account_invoice_export/models/account_move.py:0
 #, python-format
 msgid "Invoice successfuly sent to {}"
 msgstr "Faktura uspešno poslata na {}"
@@ -87,11 +87,11 @@ msgstr "Faktura uspešno poslata na {}"
 #. module: account_invoice_export
 #: model:ir.model,name:account_invoice_export.model_account_move
 msgid "Journal Entry"
-msgstr "Žurnal"
+msgstr "Stavka dnevnika"
 
 #. module: account_invoice_export
 #. odoo-python
-#: code:addons/account_invoice_export/models/account_move.py
+#: code:addons/account_invoice_export/models/account_move.py:0
 #, python-format
 msgid "Nothing done, invoice has already been exported before."
 msgstr "Ništa nije urađeno, faktura je već ranije izvezena."
@@ -128,7 +128,7 @@ msgstr "Metoda prijenosa dokumenta"
 
 #. module: account_invoice_export
 #. odoo-python
-#: code:addons/account_invoice_export/models/account_move.py
+#: code:addons/account_invoice_export/models/account_move.py:0
 #, python-format
 msgid "Transmit method is not configured to send through HTTP"
 msgstr "Metod prenosa nije konfigurisan da šalje preko HTTP"

@@ -16,11 +16,11 @@ msgstr ""
 #. module: account_invoice_edifact
 #: model:ir.model,name:account_invoice_edifact.model_account_move
 msgid "Journal Entry"
-msgstr "Žurnal"
+msgstr "Stavka dnevnika"
 
 #. module: account_invoice_edifact
 #. odoo-python
-#: code:addons/account_invoice_edifact/models/account_move.py
+#: code:addons/account_invoice_edifact/models/account_move.py:0
 #, python-format
 msgid "Partner is not allowed to use the feature."
 msgstr "Partneru nije dozvoljeno da koristi ovu funkciju."

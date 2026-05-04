@@ -13,7 +13,7 @@ msgid "Despatch Advice Import from Files"
 msgstr "Uvoz otpremnog savjeta iz datoteka"
 
 #. module: despatch_advice_import_ubl
-#: code:addons/despatch_advice_import_ubl/wizard/despatch_advice_import.py
+#: code:addons/despatch_advice_import_ubl/wizard/despatch_advice_import.py:0
 #, python-format
 msgid "Missing line ID in the Despatch Advice."
 msgstr "Nedostaje ID linije u otpremnom savjetu."

@@ -8,20 +8,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. module: base_wamas_ubl
-#: code:addons/base_wamas_ubl/wizards/wamas_ubl_wiz_check.py
+#: code:addons/base_wamas_ubl/wizards/wamas_ubl_wiz_check.py:0
 #, python-format
 msgid "- Error: %s"
-msgstr "- Error: %s"
+msgstr ""
 
 #. module: base_wamas_ubl
-#: code:addons/base_wamas_ubl/wizards/wamas_ubl_wiz_check.py
+#: code:addons/base_wamas_ubl/wizards/wamas_ubl_wiz_check.py:0
 #, python-format
 msgid ""
 "- WAMAS Type: %(wamas_type)s\n"
 "- Data: %(data)s"
 msgstr ""
-"- WAMAS Type: %(wamas_type)s\n"
-"- Data: %(data)s"
 
 #. module: base_wamas_ubl
 #: model_terms:ir.ui.view,arch_db:base_wamas_ubl.wamas_ubl_wiz_check_form
@@ -36,12 +34,12 @@ msgstr "Poklon ograničenja"
 #. module: base_wamas_ubl
 #: model:ir.actions.act_window,name:base_wamas_ubl.wamas_ubl_wiz_check_action
 msgid "Check WAMAS File"
-msgstr "Check WAMAS File"
+msgstr ""
 
 #. module: base_wamas_ubl
 #: model:ir.model,name:base_wamas_ubl.model_wamas_ubl_wiz_check
 msgid "Check WAMAS File Wizard"
-msgstr "Check WAMAS File Wizard"
+msgstr ""
 
 #. module: base_wamas_ubl
 #: model:ir.model.fields,field_description:base_wamas_ubl.field_wamas_ubl_wiz_check__create_uid
@@ -56,7 +54,7 @@ msgstr "Kreirano"
 #. module: base_wamas_ubl
 #: model_terms:ir.ui.view,arch_db:base_wamas_ubl.wamas_ubl_wiz_check_form
 msgid "Data"
-msgstr "Data"
+msgstr ""
 
 #. module: base_wamas_ubl
 #: model:ir.model.fields,field_description:base_wamas_ubl.field_wamas_ubl_wiz_check__display_name
@@ -76,7 +74,7 @@ msgstr "Zadnja izmjena"
 #. module: base_wamas_ubl
 #: model:ir.model.fields,field_description:base_wamas_ubl.field_wamas_ubl_wiz_check__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažurirao"
+msgstr "Zadnji ažurirao"
 
 #. module: base_wamas_ubl
 #: model:ir.model.fields,field_description:base_wamas_ubl.field_wamas_ubl_wiz_check__write_date
@@ -86,17 +84,17 @@ msgstr "Zadnje ažurirano"
 #. module: base_wamas_ubl
 #: model:ir.model,name:base_wamas_ubl.model_base_wamas_ubl
 msgid "Methods to convert WAMAS to UBL XML files and vice versa"
-msgstr "Methods to convert WAMAS to UBL XML files and vice versa"
+msgstr ""
 
 #. module: base_wamas_ubl
 #: model_terms:ir.ui.view,arch_db:base_wamas_ubl.wamas_ubl_wiz_simulate_form
 msgid "Only supports FROM telegram type TO telegram type(s) bellow:"
-msgstr "Only supports FROM telegram type TO telegram type(s) bellow:"
+msgstr ""
 
 #. module: base_wamas_ubl
 #: model_terms:ir.ui.view,arch_db:base_wamas_ubl.wamas_ubl_wiz_check_form
 msgid "Only supports telegram type(s) bellow:"
-msgstr "Only supports telegram type(s) bellow:"
+msgstr ""
 
 #. module: base_wamas_ubl
 #: model:ir.model.fields,field_description:base_wamas_ubl.field_wamas_ubl_wiz_check__output
@@ -106,23 +104,23 @@ msgstr "Izlaz"
 #. module: base_wamas_ubl
 #: model:ir.model.fields,field_description:base_wamas_ubl.field_wamas_ubl_wiz_simulate__output_wamas_file
 msgid "Output WAMAS File"
-msgstr "Output WAMAS File"
+msgstr ""
 
 #. module: base_wamas_ubl
 #: model:ir.model.fields,field_description:base_wamas_ubl.field_wamas_ubl_wiz_simulate__output_wamas_filename
 msgid "Output WAMAS Filename"
-msgstr "Output WAMAS Filename"
+msgstr ""
 
 #. module: base_wamas_ubl
-#: code:addons/base_wamas_ubl/models/base_wamas_ubl.py
+#: code:addons/base_wamas_ubl/models/base_wamas_ubl.py:0
 #, python-format
 msgid "Please define wamas message type (msg_type)."
-msgstr "Please define wamas message type (msg_type)."
+msgstr ""
 
 #. module: base_wamas_ubl
 #: model_terms:ir.ui.view,arch_db:base_wamas_ubl.wamas_ubl_wiz_simulate_form
 msgid "Simulate"
-msgstr "Simulate"
+msgstr ""
 
 #. module: base_wamas_ubl
 #: model:ir.actions.act_window,name:base_wamas_ubl.wamas_ubl_wiz_simulate_action
@@ -145,7 +143,7 @@ msgid "Telegram Type"
 msgstr "Tip telegrama"
 
 #. module: base_wamas_ubl
-#: code:addons/base_wamas_ubl/models/base_wamas_ubl.py
+#: code:addons/base_wamas_ubl/models/base_wamas_ubl.py:0
 #, python-format
 msgid "The data is not valid."
 msgstr "Podaci nisu važeći."
@@ -167,7 +165,7 @@ msgstr ""
 #. module: base_wamas_ubl
 #: model:ir.ui.menu,name:base_wamas_ubl.menu_wamas_parent
 msgid "WAMAS"
-msgstr "WAMAS"
+msgstr ""
 
 #. module: base_wamas_ubl
 #: model:ir.model.fields,field_description:base_wamas_ubl.field_wamas_ubl_wiz_check__wamas_file

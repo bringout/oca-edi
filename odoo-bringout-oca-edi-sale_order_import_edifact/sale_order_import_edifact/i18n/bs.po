@@ -8,7 +8,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. module: sale_order_import_edifact
-#: code:addons/sale_order_import_edifact/wizard/sale_order_import.py
+#: code:addons/sale_order_import_edifact/wizard/sale_order_import.py:0
 #, python-format
 msgid "%s document is not a Sale Order document"
 msgstr "%s dokument nije dokument prodajnog naloga"
@@ -26,22 +26,22 @@ msgstr "Tip dokumenta"
 #. module: sale_order_import_edifact
 #: model:ir.model.fields.selection,name:sale_order_import_edifact.selection__sale_order_import__import_type__edifact
 msgid "EDIFACT"
-msgstr "EDIFACT"
+msgstr ""
 
 #. module: sale_order_import_edifact
 #: model:product.template,name:sale_order_import_edifact.product_product_edifact1_dm_product_template
 msgid "EDIFACT Demo 1"
-msgstr "EDIFACT Demo 1"
+msgstr ""
 
 #. module: sale_order_import_edifact
 #: model:product.template,name:sale_order_import_edifact.product_product_edifact2_dm_product_template
 msgid "EDIFACT Demo 2"
-msgstr "EDIFACT Demo 2"
+msgstr ""
 
 #. module: sale_order_import_edifact
 #: model:product.template,name:sale_order_import_edifact.product_product_edifact3_dm_product_template
 msgid "EDIFACT Demo 3"
-msgstr "EDIFACT Demo 3"
+msgstr ""
 
 #. module: sale_order_import_edifact
 #: model:ir.model.fields,field_description:sale_order_import_edifact.field_sale_order_import__edifact_ok
@@ -69,7 +69,7 @@ msgid "Parse"
 msgstr "Parsiraj"
 
 #. module: sale_order_import_edifact
-#: code:addons/sale_order_import_edifact/models/business_document_import.py
+#: code:addons/sale_order_import_edifact/models/business_document_import.py:0
 #, python-format
 msgid ""
 "Partner GLN Code: %(party)s not found in order file: '%(file)s' from VAT "
@@ -119,7 +119,7 @@ msgid "Select a type which you want to import"
 msgstr "Odaberite tip koji želite uvoziti"
 
 #. module: sale_order_import_edifact
-#: code:addons/sale_order_import_edifact/models/business_document_import.py
+#: code:addons/sale_order_import_edifact/models/business_document_import.py:0
 #, python-format
 msgid "Unknown"
 msgstr "Nepoznat"
@@ -133,7 +133,7 @@ msgstr ""
 "Koristi dugme `button_parse_order_preview` za pregled podataka prije uvoza"
 
 #. module: sale_order_import_edifact
-#: code:addons/sale_order_import_edifact/models/business_document_import.py
+#: code:addons/sale_order_import_edifact/models/business_document_import.py:0
 #, python-format
 msgid ""
 "partner_identification_gln module should be installed with a xmlid: "

@@ -28,19 +28,19 @@ msgid "Created on"
 msgstr "Kreirano"
 
 #. module: despatch_advice_import
-#: code:addons/despatch_advice_import/wizard/despatch_advice_import.py
+#: code:addons/despatch_advice_import/wizard/despatch_advice_import.py:0
 #, python-format
 msgid "Delivery cancelled by the supplier."
 msgstr "Isporuka otkazana od strane dobavljača."
 
 #. module: despatch_advice_import
-#: code:addons/despatch_advice_import/wizard/despatch_advice_import.py
+#: code:addons/despatch_advice_import/wizard/despatch_advice_import.py:0
 #, python-format
 msgid "Delivery confirmed by the supplier."
 msgstr "Isporuka potvrđena od strane dobavljača."
 
 #. module: despatch_advice_import
-#: code:addons/despatch_advice_import/wizard/despatch_advice_import.py
+#: code:addons/despatch_advice_import/wizard/despatch_advice_import.py:0
 #, python-format
 msgid "Delivery confirmed with amendment by the supplier."
 msgstr "Isporuka potvrđena sa izmjenom od strane dobavljača."
@@ -106,7 +106,7 @@ msgstr "Zadnja izmjena"
 #. module: despatch_advice_import
 #: model:ir.model.fields,field_description:despatch_advice_import.field_despatch_advice_import__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažurirao"
+msgstr "Zadnji ažurirao"
 
 #. module: despatch_advice_import
 #: model:ir.model.fields,field_description:despatch_advice_import.field_despatch_advice_import__write_date
@@ -114,49 +114,49 @@ msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
 #. module: despatch_advice_import
-#: code:addons/despatch_advice_import/wizard/despatch_advice_import.py
+#: code:addons/despatch_advice_import/wizard/despatch_advice_import.py:0
 #, python-format
 msgid "Missing document file"
 msgstr "Nedostaje datoteka dokumenta"
 
 #. module: despatch_advice_import
-#: code:addons/despatch_advice_import/wizard/despatch_advice_import.py
+#: code:addons/despatch_advice_import/wizard/despatch_advice_import.py:0
 #, python-format
 msgid "Missing document filename"
 msgstr "Nedostaje ime datoteke dokumenta"
 
 #. module: despatch_advice_import
-#: code:addons/despatch_advice_import/wizard/despatch_advice_import.py
+#: code:addons/despatch_advice_import/wizard/despatch_advice_import.py:0
 #, python-format
 msgid "No purchase order found for name %s."
 msgstr "Nije pronađena narudžba nabavke za ime %s."
 
 #. module: despatch_advice_import
-#: code:addons/despatch_advice_import/tests/test_despatch_advice_import.py
+#: code:addons/despatch_advice_import/tests/test_despatch_advice_import.py:0
 #, python-format
 msgid "No purchase order found for name 123456."
 msgstr "Nije pronađena narudžba nabavke za ime 123456."
 
 #. module: despatch_advice_import
-#: code:addons/despatch_advice_import/wizard/despatch_advice_import.py
+#: code:addons/despatch_advice_import/wizard/despatch_advice_import.py:0
 #, python-format
 msgid "The product quantity is greater than the original product quantity"
 msgstr "Količina proizvoda je veća od originalne količine proizvoda"
 
 #. module: despatch_advice_import
-#: code:addons/despatch_advice_import/wizard/despatch_advice_import.py
+#: code:addons/despatch_advice_import/wizard/despatch_advice_import.py:0
 #, python-format
 msgid "There are no embedded XML file in this PDF file."
 msgstr "Nema ugrađenih XML datoteka u ovoj PDF datoteci."
 
 #. module: despatch_advice_import
-#: code:addons/despatch_advice_import/wizard/despatch_advice_import.py
+#: code:addons/despatch_advice_import/wizard/despatch_advice_import.py:0
 #, python-format
 msgid "This XML file is not XML-compliant"
 msgstr "Ova XML datoteka nije u skladu sa XML standardom"
 
 #. module: despatch_advice_import
-#: code:addons/despatch_advice_import/wizard/despatch_advice_import.py
+#: code:addons/despatch_advice_import/wizard/despatch_advice_import.py:0
 #, python-format
 msgid ""
 "This file '%s' is not recognised as XML nor PDF file. Please check the file "
@@ -166,7 +166,7 @@ msgstr ""
 "provjerite datoteku i njenu ekstenziju."
 
 #. module: despatch_advice_import
-#: code:addons/despatch_advice_import/wizard/despatch_advice_import.py
+#: code:addons/despatch_advice_import/wizard/despatch_advice_import.py:0
 #, python-format
 msgid ""
 "This type of XML Order Document is not supported. Did you install the module"
@@ -176,7 +176,7 @@ msgstr ""
 " podršku ovog XML formata?"
 
 #. module: despatch_advice_import
-#: code:addons/despatch_advice_import/wizard/despatch_advice_import.py
+#: code:addons/despatch_advice_import/wizard/despatch_advice_import.py:0
 #, python-format
 msgid ""
 "This type of XML Order Response is not supported. Did you install the module"

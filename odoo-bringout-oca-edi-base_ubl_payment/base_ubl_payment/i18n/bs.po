@@ -22,7 +22,7 @@ msgstr "Zajedničke metode za generiranje i parsiranje UBL XML datoteka"
 # taken from hr.po
 #. module: base_ubl_payment
 #. odoo-python
-#: code:addons/base_ubl_payment/models/ubl.py
+#: code:addons/base_ubl_payment/models/ubl.py:0
 #, python-format
 msgid ""
 "Missing 'UNECE Payment Mean' on payment type '{method}' used by the payment "
