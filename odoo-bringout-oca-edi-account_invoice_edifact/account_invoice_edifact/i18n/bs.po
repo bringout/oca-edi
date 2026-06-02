@@ -16,7 +16,7 @@ msgstr ""
 #. module: account_invoice_edifact
 #: model:ir.model,name:account_invoice_edifact.model_account_move
 msgid "Journal Entry"
-msgstr "Stavka dnevnika"
+msgstr "Knjiženje"
 
 #. module: account_invoice_edifact
 #. odoo-python

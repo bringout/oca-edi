@@ -17,13 +17,13 @@ msgstr ""
 #. module: account_invoice_ubl
 #: model:ir.model,name:account_invoice_ubl.model_res_company
 msgid "Companies"
-msgstr "Tvrtke"
+msgstr "Kompanije"
 
 # taken from hr.po
 #. module: account_invoice_ubl
 #: model:ir.model,name:account_invoice_ubl.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke"
+msgstr "Postavke konfiguracije"
 
 # taken from hr.po
 #. module: account_invoice_ubl
@@ -59,7 +59,7 @@ msgstr "Uključi PDF računa u samostalnu UBL XML datoteku."
 #. module: account_invoice_ubl
 #: model:ir.model,name:account_invoice_ubl.model_account_move
 msgid "Journal Entry"
-msgstr "Stavka dnevnika"
+msgstr "Knjiženje"
 
 # taken from hr.po
 #. module: account_invoice_ubl

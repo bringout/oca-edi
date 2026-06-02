@@ -15,7 +15,7 @@ msgstr "Dozvoli validaciju preko količine"
 #. module: despatch_advice_import
 #: model_terms:ir.ui.view,arch_db:despatch_advice_import.despatch_advice_import_form_view
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: despatch_advice_import
 #: model:ir.model.fields,field_description:despatch_advice_import.field_despatch_advice_import__create_uid
@@ -58,7 +58,7 @@ msgstr "Uvoz otpremnog savjeta iz datoteka"
 #. module: despatch_advice_import
 #: model:ir.model.fields,field_description:despatch_advice_import.field_despatch_advice_import__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: despatch_advice_import
 #: model:ir.model.fields,field_description:despatch_advice_import.field_despatch_advice_import__filename
@@ -101,17 +101,17 @@ msgstr "Uvezi dokument"
 #. module: despatch_advice_import
 #: model:ir.model.fields,field_description:despatch_advice_import.field_despatch_advice_import____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: despatch_advice_import
 #: model:ir.model.fields,field_description:despatch_advice_import.field_despatch_advice_import__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: despatch_advice_import
 #: model:ir.model.fields,field_description:despatch_advice_import.field_despatch_advice_import__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: despatch_advice_import
 #: code:addons/despatch_advice_import/wizard/despatch_advice_import.py:0

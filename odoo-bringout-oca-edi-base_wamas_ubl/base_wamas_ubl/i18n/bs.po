@@ -24,7 +24,7 @@ msgstr ""
 #. module: base_wamas_ubl
 #: model_terms:ir.ui.view,arch_db:base_wamas_ubl.wamas_ubl_wiz_check_form
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: base_wamas_ubl
 #: model_terms:ir.ui.view,arch_db:base_wamas_ubl.wamas_ubl_wiz_check_form
@@ -54,12 +54,12 @@ msgstr "Kreirano"
 #. module: base_wamas_ubl
 #: model_terms:ir.ui.view,arch_db:base_wamas_ubl.wamas_ubl_wiz_check_form
 msgid "Data"
-msgstr ""
+msgstr "Podaci"
 
 #. module: base_wamas_ubl
 #: model:ir.model.fields,field_description:base_wamas_ubl.field_wamas_ubl_wiz_check__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: base_wamas_ubl
 #: model:ir.model.fields,field_description:base_wamas_ubl.field_wamas_ubl_wiz_check__id
@@ -69,17 +69,17 @@ msgstr "ID"
 #. module: base_wamas_ubl
 #: model:ir.model.fields,field_description:base_wamas_ubl.field_wamas_ubl_wiz_check____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: base_wamas_ubl
 #: model:ir.model.fields,field_description:base_wamas_ubl.field_wamas_ubl_wiz_check__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: base_wamas_ubl
 #: model:ir.model.fields,field_description:base_wamas_ubl.field_wamas_ubl_wiz_check__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: base_wamas_ubl
 #: model:ir.model,name:base_wamas_ubl.model_base_wamas_ubl

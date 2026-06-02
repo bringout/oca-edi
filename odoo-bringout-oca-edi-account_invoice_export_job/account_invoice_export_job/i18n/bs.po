@@ -16,4 +16,4 @@ msgstr ""
 #. module: account_invoice_export_job
 #: model:ir.model,name:account_invoice_export_job.model_account_move
 msgid "Journal Entry"
-msgstr "Stavka dnevnika"
+msgstr "Knjiženje"

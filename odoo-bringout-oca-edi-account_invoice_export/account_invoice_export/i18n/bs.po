@@ -87,7 +87,7 @@ msgstr "Faktura uspešno poslata na {}"
 #. module: account_invoice_export
 #: model:ir.model,name:account_invoice_export.model_account_move
 msgid "Journal Entry"
-msgstr "Stavka dnevnika"
+msgstr "Knjiženje"
 
 #. module: account_invoice_export
 #. odoo-python

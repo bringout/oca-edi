@@ -34,7 +34,7 @@ msgstr "Kompanije"
 #. module: account_einvoice_generate
 #: model:ir.model,name:account_einvoice_generate.model_res_config_settings
 msgid "Config Settings"
-msgstr "Podešavanja konfiguracije"
+msgstr "Postavke konfiguracije"
 
 # taken from hr.po
 #. module: account_einvoice_generate
@@ -67,7 +67,7 @@ msgstr "XML format ugrađen u PDF fakturu"
 #. module: account_einvoice_generate
 #: model:ir.model,name:account_einvoice_generate.model_account_move
 msgid "Journal Entry"
-msgstr "Stavka dnevnika"
+msgstr "Knjiženje"
 
 #. module: account_einvoice_generate
 #: model_terms:ir.ui.view,arch_db:account_einvoice_generate.view_account_config_settings
